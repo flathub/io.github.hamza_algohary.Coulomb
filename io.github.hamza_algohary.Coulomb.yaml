@@ -3,9 +3,9 @@ runtime: org.gnome.Platform
 runtime-version: '47'
 sdk: org.gnome.Sdk
 command: coulomb
-sdk-extensions: 
+sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk
-finish-args: 
+finish-args:
   - --env=PATH=/app/jre/bin:/app/bin:/usr/bin
   - --device=dri
   - --share=ipc
@@ -14,14 +14,14 @@ finish-args:
 modules:
   - name: openjdk
     buildsystem: simple
-    build-commands: 
+    build-commands:
       - /usr/lib/sdk/openjdk/install.sh
   - name: coulomb
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/hamza-algohary/Coulomb/releases/download/v0.6/Coulomb.jar 
-        sha256: fcb29ae220f40952923b78dbf390e1798dabb2825b1dd114afd803124f09fe78
+        url: https://github.com/hamza-algohary/Coulomb/releases/download/v0.6.1/Coulomb.jar
+        sha256: ee4aec9c0cbe242108a1d7f1f5ce4430deb5d6208ad45334139ede5e455c7dfe
       - type: file
         url: https://github.com/hamza-Algohary/Coulomb/raw/c59a784696af16371c0815eb815153fe645417d6/app/src/main/resources/icons/vector/dark/coulomb.svg
         sha256: 6d196b88b5fca3ffb8d1f4c3d4da5a9517905fa5b7ead775264cd0234643f9a3
@@ -34,7 +34,7 @@ modules:
         sha256: 91a104f2da4aa298386317b5aa8bc46e8c9bfc9d395756c7b49755486506e0c5
       - type: script
         dest-filename: coulomb
-        commands: 
+        commands:
           - "exec java -jar /app/bin/Coulomb.jar"
     build-commands:
       - install -Dm755 Coulomb.jar -t /app/bin
