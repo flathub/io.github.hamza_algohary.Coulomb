@@ -11,8 +11,6 @@ finish-args:
   - --share=ipc
   - --socket=fallback-x11
   - --socket=wayland
-  - --talk-name=org.gtk.vfs.*
-  - --filesystem=xdg-run/gvfsd
 modules:
   - name: openjdk
     buildsystem: simple
