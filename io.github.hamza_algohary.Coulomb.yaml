@@ -23,15 +23,15 @@ modules:
         url: https://github.com/hamza-algohary/Coulomb/releases/download/v0.6.1/Coulomb.jar
         sha256: ee4aec9c0cbe242108a1d7f1f5ce4430deb5d6208ad45334139ede5e455c7dfe
       - type: file
-        url: https://github.com/hamza-Algohary/Coulomb/raw/c59a784696af16371c0815eb815153fe645417d6/app/src/main/resources/icons/vector/dark/coulomb.svg
+        url: https://github.com/hamza-Algohary/Coulomb/raw/0b7b1475bd757ac846161ba2d52e3c1886736a6a/app/src/main/resources/icons/vector/dark/coulomb.svg
         sha256: 6d196b88b5fca3ffb8d1f4c3d4da5a9517905fa5b7ead775264cd0234643f9a3
         dest-filename: io.github.hamza_algohary.Coulomb.svg
       - type: file
-        url: https://github.com/hamza-algohary/Coulomb/raw/920975511bb998e70a738f3623a0889bbf6a63ec/app/src/main/resources/io.github.hamza_algohary.Coulomb.desktop
+        url: https://github.com/hamza-algohary/Coulomb/raw/0b7b1475bd757ac846161ba2d52e3c1886736a6a/app/src/main/resources/io.github.hamza_algohary.Coulomb.desktop
         sha256: f02424f897a640a5a78cfd9507032aee81b2d37e0d129dfb34f3f0727e182dc6
       - type: file
-        url: https://github.com/hamza-algohary/Coulomb/raw/920975511bb998e70a738f3623a0889bbf6a63ec/app/src/main/resources/io.github.hamza_algohary.Coulomb.metainfo.xml
-        sha256: 91a104f2da4aa298386317b5aa8bc46e8c9bfc9d395756c7b49755486506e0c5
+        url: https://github.com/hamza-algohary/Coulomb/raw/0b7b1475bd757ac846161ba2d52e3c1886736a6a/app/src/main/resources/io.github.hamza_algohary.Coulomb.metainfo.xml
+        sha256: 4d0e5f2cf293cc2000b722f6525a25add1bcd628402dfd381ce2782ddf825631
       - type: script
         dest-filename: coulomb
         commands:
